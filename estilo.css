@@ -13,7 +13,6 @@ body {
 /*Layout*/
 
 #area-cabecalho {
-    border: 1px solid red;
     background-color:#f7b600;
     padding: 15px;
     text-align: center;
@@ -23,6 +22,22 @@ body {
     padding: 10px;
 }
 
+/*Formatações do menu*/
+
+a {
+    text-decoration: none; /*TEXT-DECORATION para remover o underline*/
+}
+
+a:link, a:visited {
+    color: #fff;
+    padding: 8px 12px;
+}
+
+a:hover {
+    color: #f7b600;
+    background-color: white;
+}
+
 /*Formatações gerais*/
 
 h1 {
@@ -30,4 +45,7 @@ h1 {
     font-size: 2.5em;
 }
 
+.branco {
+    color: white;
+}
     
