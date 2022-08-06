@@ -28,6 +28,19 @@ body {
     margin: 0 auto;
 }
 
+#area-postagens, #area-lateral {
+    background:orange ;
+}
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+
 /*Formatações do menu*/
 
 a {
@@ -55,3 +68,13 @@ h1 {
     color: white;
 }
     
+
+/*Rodape*/
+
+#rodape {
+    clear: both; /*Remover os elementos flutuantes*/
+    text-align: center;
+    background: #ccc;
+    padding: 15px;
+
+}
