@@ -36,6 +36,12 @@ body {
     float: left;
 }
 
+.postagens {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
 #area-lateral {
     width: 240px;
     float: right;
