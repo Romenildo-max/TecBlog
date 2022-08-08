@@ -23,15 +23,11 @@ body {
 }
 
 #area-principal {
-    background: white;
     width: 920px;
     margin: 0 auto;
     padding: 15px;
 }
 
-#area-postagens, #area-lateral {
-    background:orange ;
-}
 #area-postagens {
     width: 660px;
     float: left;
@@ -46,6 +42,18 @@ body {
 #area-lateral {
     width: 240px;
     float: right;
+}
+
+.conteudo-lateral {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
 }
 
 /*Formatações do menu*/
@@ -86,6 +94,12 @@ h1 {
 
 h2 {
     color: #f7b600;
+}
+
+h3 {
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
 }
 
 .datadepostagem {
