@@ -51,18 +51,27 @@ body {
 /*Formatações do menu*/
 
 a {
-    text-decoration: none; /*TEXT-DECORATION para remover o underline*/
+    text-decoration: none; /*TEXT-DECORATION para remover o underline de todos links da pagina*/
 }
 
 a:link, a:visited {
-    color: #fff;
-    padding: 8px 12px;
-}
+    color: #f7b600;
+} /*Padrão para todos links*/
 
 a:hover {
+    text-decoration: underline;
+} /*Padrão para todos links*/
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: #fff;
+    padding: 8px 12px;
+} /* Combinação de ID mais seletor A, quer dizer que COLOR e PADDING só será aplicado aos links na AREA-CABECALHO*/
+
+#area-cabecalho a:hover {
     color: #f7b600;
     background-color: white;
-}
+    text-decoration: none;
+} /*Combinação de ID e mais seletor A para definir COLOR e BACKGROUND-COLOR apenas nos links da area-cabecalho */
 
 /*Formatações gerais*/
 
